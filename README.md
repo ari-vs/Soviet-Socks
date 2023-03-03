@@ -2,6 +2,7 @@ Soviet Socks Stockpile Software V1.0!
 
 to run:
 npm ci in server and webapp
+
 npm start in server and webapp
 
 instructions for CRUD commands:
