@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Soviet Sock Stockpile</title>
+    <base href="/" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <div>
+        <p class="flex">Select Table: 
+          <button id="socksButton">Socks</button>
+          <button id="officersButton">Officers</button>
+          <button id="historyButton">Location History</button>
+        </p>
+        <div class="flex">
+          <input type="text" placeholder="input CRUD command..." id="commandInput">
+          <button id="executeButton">Execute</button>
+        </div>
+        <div class="flex">
+            Select CRUD Mode:
+            <input checked type="radio" id="create" name="crud_mode" value="create">
+            <label for="create">Create</label><br>
+            <input type="radio" id="read" name="crud_mode" value="read">
+            <label for="read">Read</label>
+            <input type="radio" id="update" name="crud_mode" value="update">
+            <label for="update">Update</label><br>
+            <input type="radio" id="delete" name="crud_mode" value="delete">
+            <label for="delete">Delete</label><br>
+        </div>
+      </div>
+    <div id="dataPreviewList">
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+html {
+  height: 98%;
+  body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    .flex {
+      display: flex;
+      justify-content: space-around;
+    }
+    #dataPreviewList {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 20px;
+    }
+    .dataPreview {
+      height: 302px;
+      width: 321px;
+      background-color: lightblue;
+      border-radius: 50px;
+      margin: 10px;
+      border: black 2px solid;
+      h3 {
+        text-align: center;
+      }
+      p {
+        margin-left: 10px;
+      }
+    }
+    #pageButtons {
+      display: flex;
+      justify-content: space-between;
+      margin-top:  auto;
+    }
+    .currentPage {
+      color: blue;
+    }
+  }
+}
